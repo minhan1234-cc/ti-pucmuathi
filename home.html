@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1> Tiếp Sức Mùa Thi </h1>
+  <p>Thông qua hoạt động “Tiếp sức mùa thi”, tạo môi trường để thanh niên, sinh viên phát huy tinh thần xung kích, tình nguyện, tinh thần tương thân tương ái, ý thức trách nhiệm đối với cộng đồng.</p>
+</div>
+
+<div class="topnav">
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#" style="float:right">Link</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>NỘI DUNG HỖ TRỢ</h2>
+      <h5>Thời gian triển khai 27/06/2025 đến 29/06/2025</h5>
+        <img src="https://yu.ctu.edu.vn/images/upload/article/2022/07/0719-lchsvst-tk-hd-tiep-suc-mua-thi-2022-01.png" width="700px">
+      </div>
+      <p> Hỗ trợ thí sinh kỳ thi đánh giá năng lực tại các trường Đại học, Học viện, Cao đẳng</p>
+      <p>Hỗ trợ thí sinh và người nhà trong những ngày làm thủ tục tại các địa điểm thi; hướng dẫn, chỉ dẫn sơ đồ phòng thi theo từng môn thi, buổi thi; giải đáp các thắc mắc cho thí sinh về các thông tin liên quan đến kỳ thi và xét tuyển ĐH, CĐ.
+      </p>
+    </div>
+    <div class="card">
+      <h2>CÁC HOẠT ĐỘNG CẦN HỖ TRỢ</h2>
+      <h5>Thời gian triển khai 27/06/2025 đến 29/06/2025</h5>
+      <div class="fakeimg" style="height:200px;"><img src="https://cellphones.com.vn/sforum/wp-content/uploads/2024/04/tiep-suc-mua-thi-3.jpg"width="350px"></div>
+      <p>Hỗ trợ thí sinh, người nhà thí sinh trong thời gian diễn ra kỳ thi: phát cẩm nang hỗ trợ thí sinh, các vật dụng hỗ trợ thí sinh; hỗ trợ giữ hành lý, đồ đạc của thí sinh trong thời gian thi; hỗ trợ bố trí các khu vực nghỉ ngơi cho thí sinh và người nhà thí sinh...</p>
+      <p>Hướng dẫn thí sinh làm thủ tục hồ sơ tại các trường đại học, học viện, cao đẳng.</p>
+    </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>CÁC ĐƠN VỊ HỖ TRỢ</h2>
+      <div class="fakeimg" style="height:100px;"> <img src="https://tsmt.sac.vn/wp-content/uploads/2024/05/9.png" width="100px"></div>
+      <p>xin gửi lời cảm ơn sâu sắc đến các tổ chức, doanh nghiệp, và các vị mạnh thường quân đã luôn đồng hành và hỗ trợ hoạt động này.</p>
+    </div>
+    <div class="card">
+      <h3>Liên Hệ</h3>
+      <p>0123456789</p>
+      <p> trungtamluaga@gmail.com </p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Nguyên Ân Khánh Nghi U.Nhi</h2>
+</div>
+
+</body>
+</html>
+
+
